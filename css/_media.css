@@ -1,0 +1,13 @@
+.hide-on-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .hide-on-desktop {
+    display: block;
+  }
+}
