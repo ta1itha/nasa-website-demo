@@ -3,11 +3,37 @@
 @import url("css/_reset.css");
 @import url("css/_fonts.css");
 @import url("css/_color.css");
+@import url("css/_flex.css");
 
 /* Component Specific Code */
 @import url("css/_header.css");
 @import url("css/_buttons.css");
 @import url("css/_dropdowns.css");
+
+
+.hero-banner {
+  position: relative;
+  min-height: 40rem;
+  background-image: url(/assets/images/banner/psyche-asteroid-jpegpia24471.webp);
+}
+
+.hero-banner:after {
+  content: "";
+  font-size: 5vw;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(65deg, rgb(0 0 0 / 51%) 25%, rgba(255,255,255,0) 100%)
+}
+
+.width-half {
+  max-width: 50%;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
 
 /* Make sure this is the last import! */
 @import url("css/_media.css");
