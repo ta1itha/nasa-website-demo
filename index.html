@@ -15,10 +15,10 @@
     <div class="header-left">
       <button class="burger hide-on-desktop">☰</button>
 
-      <details class="hide-on-mobile" id="main-nav">
+      <details class="hide-on-mobile dropdown" id="main-nav">
         <summary>Explore</summary>
         <nav>
-          <ul>
+          <ul class="pages">
             <li><a href="#">Home</a></li>
             <li><a href="#">Missions</a></li>
             <li><a href="#">Humans in Space</a></li>
@@ -34,15 +34,34 @@
           </ul>
 
           <div class="featured">
+            <span>Featured</span>
             <ul>
-              <li>
-                <a href="#">A</a>
+              <li class="featured-item">
+                <a href="#">
+                  <div class="featured-item-img">
+                    <img src="https://smd-cms.nasa.gov/wp-content/uploads/2018/07/osiris-rex-capsule-utah.jpg" alt="Utah Capsule">
+                  </div>
+                  <span>2 Min read</span>
+                  <h2>Example title here</h2>
+                </a>
               </li>
-              <li>
-                <a href="#">B</a>
+              <li class="featured-item">
+                <a href="#">
+                  <div class="featured-item-img">
+                    <img src="https://www.nasa.gov/wp-content/uploads/2023/03/annular-eclipse.jpg?resize=1024,1024" alt="Utah Capsule">
+                  </div>
+                  <span>2 Min read</span>
+                  <h2>Example title here</h2>
+                </a>
               </li>
-              <li>
-                <a href="#">C</a>
+              <li class="featured-item">
+                <a href="#">
+                  <div class="featured-item-img">
+                    <img src="https://www.nasa.gov/wp-content/uploads/2023/09/1-psyche-with-panel-stowed-16.jpg" alt="Utah Capsule">
+                  </div>
+                  <span>2 Min read</span>
+                  <h2>Example title here</h2>
+                </a>
               </li>
             </ul>
           </div>
@@ -139,9 +158,6 @@
     </div>
 
   </header>
-
-
-  <div class="test"></div>
 
   <main>
 
