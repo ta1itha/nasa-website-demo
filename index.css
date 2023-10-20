@@ -1,4 +1,10 @@
+/* Fundamental Code */
+@import url("css/_variable.css");
 @import url("css/_reset.css");
+@import url("css/_fonts.css");
+@import url("css/_color.css");
+
+/* Component Specific Code */
 @import url("css/_header.css");
 @import url("css/_buttons.css");
 @import url("css/_dropdowns.css");

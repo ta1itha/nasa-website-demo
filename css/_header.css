@@ -1,6 +1,6 @@
 header {
-  color: white;
-  background: black;
+  color: var(--theme-color-light);
+  background: var(--theme-color-dark);
   padding: 1rem;
 
   display: grid;
@@ -22,7 +22,7 @@ header .logo {
 
 header search input {
   background-color: transparent;
-  color: #444447;
+  color: var(--theme-color-muted);
   outline: none;
   border: 1px solid;
   padding: 0.25rem;

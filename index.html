@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <div class="header-left">
       <button class="burger hide-on-desktop">☰</button>
 
-      <details class="hide-on-mobile dropdown" id="main-nav">
+      <details class="hide-on-mobile dropdown dropdown-large" id="main-nav">
         <summary>Explore</summary>
         <nav>
           <ul class="pages">
@@ -41,7 +42,7 @@
                   <div class="featured-item-img">
                     <img src="https://smd-cms.nasa.gov/wp-content/uploads/2018/07/osiris-rex-capsule-utah.jpg" alt="Utah Capsule">
                   </div>
-                  <span>2 Min read</span>
+                  <span class="monospace">2 Min read</span>
                   <h2>Example title here</h2>
                 </a>
               </li>
@@ -50,7 +51,7 @@
                   <div class="featured-item-img">
                     <img src="https://www.nasa.gov/wp-content/uploads/2023/03/annular-eclipse.jpg?resize=1024,1024" alt="Utah Capsule">
                   </div>
-                  <span>2 Min read</span>
+                  <span class="monospace">2 Min read</span>
                   <h2>Example title here</h2>
                 </a>
               </li>
@@ -59,7 +60,7 @@
                   <div class="featured-item-img">
                     <img src="https://www.nasa.gov/wp-content/uploads/2023/09/1-psyche-with-panel-stowed-16.jpg" alt="Utah Capsule">
                   </div>
-                  <span>2 Min read</span>
+                  <span class="monospace">2 Min read</span>
                   <h2>Example title here</h2>
                 </a>
               </li>
@@ -83,11 +84,13 @@
 
       <button class="search hide-on-desktop">🔍</button>
 
-      <details id="news" class="hide-on-mobile">
+      <details id="news" class="hide-on-mobile dropdown">
         <summary>News & Events</summary>
 
         <nav>
-          <a href="#">News & Events</a>
+          <a href="#">News & Events <span class="material-symbols-outlined">
+            arrow_circle_right
+            </span></a>
 
           <ul>
             <li>
@@ -118,11 +121,13 @@
         </nav>
       </details>
 
-      <details id="multimedia" class="hide-on-mobile">
+      <details id="multimedia" class="hide-on-mobile dropdown">
         <summary>Multimedia</summary>
 
         <nav>
-          <a href="#">Multimedia</a>
+          <a href="#">Multimedia <span class="material-symbols-outlined">
+            arrow_circle_right
+            </span></a>
 
           <ul>
             <li>
@@ -160,6 +165,18 @@
   </header>
 
   <main>
+
+    <h1>The Plan: </h1>
+
+    <ol>
+      <li>Finish off the dropdowns</li>
+      <li>Add an icon font to the project</li>
+      <li>Improve the colours with variables</li>
+      <li>Add some useful utility classes</li>
+      <li>Build out the main layout</li>
+    </ol>
+
+    <button class="bg-accent color-light">Example</button>
 
     <div class="hero-banner"></div>
 
