@@ -1,15 +1,15 @@
 /* Fundamental Code */
-@import url("css/_variable.css");
-@import url("css/_reset.css");
-@import url("css/_fonts.css");
-@import url("css/_color.css");
-@import url("css/_flex.css");
+@import url("css/variable.css");
+@import url("css/reset.css");
+@import url("css/fonts.css");
+@import url("css/color.css");
+@import url("css/flex.css");
 
 
 /* Component Specific Code */
-@import url("css/_header.css");
-@import url("css/_buttons.css");
-@import url("css/_dropdowns.css");
+@import url("css/header.css");
+@import url("css/buttons.css");
+@import url("css/dropdowns.css");
 
 
 .hero-banner {
